@@ -4,6 +4,6 @@
   background-color: #0a0e34;
   background-repeat: no-repeat;
   background-position: center center;
-  background-cover: cover;
+  background-cover: contain;
   
 }
