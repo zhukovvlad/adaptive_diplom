@@ -64,6 +64,7 @@
   
   .icon {
     width: 9%;
+    height: 100;
     margin-right: 5%;    
   }
 }
@@ -78,7 +79,7 @@
   }
   
   .header {
-    background-image: url('../images/football_767.jpg');
+    background-image: url('../images/football_1280.jpg');
     
     padding-left: 4.17%;
     padding-right: 4.17%;
@@ -123,13 +124,73 @@
   
   .icon {
     width: 16.13%;
+    height: 100%;
     margin-right: 9.85%;    
   }
 }
 
-@media (min-width: 961px) and (max-width: 1920px) {
+@media (min-width: 961px) {
+  .logo-container {
+    width: 12.43%;
+    height: 3.39%;
+    margin-top: 2.93%;
+    
+    z-index: 2;
+  }
+  
+  .header {
+    background-image: url('../images/football_1920.jpg');
+    
+    padding-left: 10%;
+    padding-right: 10%;
+  }  
+  
   .slogan {
+    width: 100%;
+    
     font-size: 5.625rem;
+    
+    margin-top: 19%;
+    margin-bottom: 14.3%;    
+  }
+  
+  .slogan-span:nth-child(even) {
+    margin-left: 27%;
+  }
+  
+  .apps-container {
+    margin-bottom: 7.16%;
+    margin-top: 0;
+    
+    width: 100%;
+    
+    justify-content: center;
+  }
+  
+  .app {
+    width: 20.25%;
+    border-radius: 12% / 50%;    
+  }
+  
+  .app:first-child {
+    margin-right: 1.63%;
+  }
+  
+  .app:last-child {
+    margin-left: 1.63%;
+  }
+  
+  .app-link {
+    font-size: 0.875rem;
+    padding-top: 5.8%;
+    padding-bottom: 5.8%;
+    padding-left: 12.2%;
+  }
+  
+  .icon {
+    width: 16.17%;
+    height: 125%;
+    margin-right: 7.7%;    
   }
 }
 
@@ -153,7 +214,7 @@ html {
   background-position: 50% 0;
   background-size: cover;
   
-  #max-height: 100vh;
+  min-height: 100vh;
   
   display: flex;
   flex-direction: column;
@@ -190,6 +251,7 @@ html {
 }
 
 .slogan {
+  text-transform: uppercase;
   font-family: 'Open-Sans';
   font-weight: bold;
   color: #ffffff;
@@ -238,6 +300,7 @@ html {
 .app-link {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   width: 100%;
   
   text-transform: uppercase;
@@ -256,7 +319,7 @@ html {
 .icon {
   fill: #ffffff;
   #width: 9%;
-  height: 100%;
+  #height: 100%;
   
   #margin-right: 5%;
 }
