@@ -352,7 +352,7 @@ h1, h2, h3, p {
   margin-bottom: 76.25%;
 }
 
-.image-box {
+.image-box-footballer {
   position: absolute;
   left: 21.9%;
   top: 7.5%;
@@ -360,6 +360,17 @@ h1, h2, h3, p {
   z-index: 2;
   
   width: 59.375%;
+}
+
+.image-box-basketballer {
+  position: absolute;
+  left: 2.5%;
+  top: 9%;
+  
+  z-index: 2;
+  
+  width: 94.375%;
+  
 }
 
 .chapter {
