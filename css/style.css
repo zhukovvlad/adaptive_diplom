@@ -12,6 +12,22 @@
   font-style: normal;
 }
 
+body {
+  margin: 0 0;
+}
+
+html {
+  font-family: 'Open-Sans';
+  font-size: 100%;
+}
+
+h1, h2, h3, p {
+  margin: 0 0;
+  padding: 0 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
 @media (max-width: 640px) {
   .logo-container {
     width: 47.5%;
@@ -194,17 +210,6 @@
   }
 }
 
-body {
-  margin: 0 0;
-}
-
-html {
-  font-size: 100%;
-}
-
-.h1 {
-  all: none;
-}
 
 .header {
   position: relative;
@@ -330,4 +335,112 @@ html {
   font-family: 'Open-Sans';
   font-weight: bold;
   #font-size: 0.5rem;
+}
+
+.article-main {
+  position: relative;
+}
+
+.article-header {
+  font-size: 3.125rem;
+  color: #e7e7e7;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+  padding-left: 6.25%;
+  margin-top: 7.5%;
+  margin-bottom: 76.25%;
+}
+
+.image-box {
+  position: absolute;
+  left: 21.9%;
+  top: 7.5%;
+  
+  z-index: 2;
+  
+  width: 59.375%;
+}
+
+.chapter {
+  padding-left: 6.25%;
+  padding-right: 6.25%;  
+}
+
+.chapter>h3 {
+  display: inline-block;
+  font-size: 1.4375rem;
+  letter-spacing: 0.0625rem;
+  line-height: 2.125rem;
+  color: #c1c1c1;
+  text-transform: uppercase;
+  font-weight: bold;
+  
+  margin-top: 19.7%;
+}
+
+.chapter>p {
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.0625rem;
+  font-weight: normal;
+  
+  padding-top: 9.29%;
+  padding-bottom: 18.57%;
+}
+
+.first-chapter {
+  background-color: #fafafa;
+}
+
+.first-chapter::before {
+  display: inline-block;
+  content: "01";
+  font-size: 0.875rem;
+  font-weight: bold;
+  border-bottom: 4px solid #5e42b0;
+  border-radius: 1%;
+  vertical-align: top;
+  line-height: 1rem;
+  
+  margin-top: calc(2.5% + 19.7%);
+  margin-right: 2.8%;
+}
+
+.second-chapter {
+  background-color: #f5f4f9;
+}
+
+.second-chapter::before {
+  display: inline-block;
+  content: "02";
+  font-size: 0.875rem;
+  font-weight: bold;
+  border-bottom: 4px solid #5e42b0;
+  border-radius: 2px;
+  vertical-align: top;
+  line-height: 1rem;
+  
+  margin-top: calc(2.5% + 19.7%);
+  margin-right: 2.8%;  
+}
+
+.third-chapter {
+  background-color: #5e42b0;
+  
+  color: #ffffff;
+}
+
+.third-chapter::before {
+  display: inline-block;
+  content: "03";
+  font-size: 0.875rem;
+  font-weight: bold;
+  border-bottom: 4px solid #ffffff;;
+  border-radius: 2px;
+  vertical-align: top;
+  line-height: 1rem;
+  
+  margin-top: calc(2.5% + 19.7%);
+  margin-right: 2.8%;  
 }
