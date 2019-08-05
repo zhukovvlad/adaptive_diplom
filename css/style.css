@@ -21,7 +21,7 @@ html {
   font-size: 100%;
 }
 
-h1, h2, h3, p, img {
+h1, h2, h3, p, img, picture {
   margin: 0 0;
   padding: 0 0;
   margin-block-start: 0;
@@ -45,7 +45,6 @@ h1, h2, h3, p, img {
   }
   
   .slogan {
-    #font-size: 1.75rem;
     font-size: 8.75vw;
     line-height: 9.6875vw;
     letter-spacing: 0.3125vw;
@@ -78,10 +77,6 @@ h1, h2, h3, p, img {
   
   .app-link {
     font-size: 2.5vw;
-    /*padding-top: 2.32%;
-    padding-bottom: 2.32%;  
-    padding-left: 30%;
-    letter-spacing: 0;*/
   }
   
   .icon {
@@ -96,7 +91,6 @@ h1, h2, h3, p, img {
   }
   
   .article-header {
-    #font-size: 3.125rem;
     font-size: 15.625vw;
 
     padding-left: 6.25%;
@@ -140,10 +134,17 @@ h1, h2, h3, p, img {
     background-color: #fafafa;
   }
   
+  .special-third-chapter {
+    background-color: #0a0e34;
+  }
+  
+  .special-third-chapter>p {
+    color: #ffffff;
+  }  
+  
   .first-chapter::before {
     display: inline-block;
     content: "01";
-    #font-size: 0.875rem;
     font-size: 4.375vw;
     font-weight: bold;
     border-bottom: 0.625vw solid #5e42b0;
@@ -158,7 +159,6 @@ h1, h2, h3, p, img {
   .second-chapter::before {
     display: inline-block;
     content: "02";
-    #font-size: 0.875rem;
     font-size: 4.375vw;
     font-weight: bold;
     border-bottom: 0.625vw solid #5e42b0;
@@ -173,7 +173,6 @@ h1, h2, h3, p, img {
   .third-chapter::before {
     display: inline-block;
     content: "03";
-    #font-size: 0.875rem;
     font-size: 4.375vw;
     font-weight: bold;
     border-bottom: 0.625vw solid #5e42b0;
@@ -183,10 +182,24 @@ h1, h2, h3, p, img {
 
     margin-top: 25.9375vw;
     margin-right: 2.8125vw;
-  }  
+  }
+  
+  .special-third-chapter::before {
+    color: #8765dd;
+    display: inline-block;
+    content: "03";
+    font-size: 4.375vw;
+    font-weight: bold;
+    border-bottom: 0.625vw solid #ffffff;
+    border-radius: 10%;
+    vertical-align: top;
+    line-height: 6vw;
+
+    margin-top: 25.9375vw;
+    margin-right: 2.8125vw;
+  }    
   
   .chapter>p {
-    #font-size: 0.9375rem;
     font-size: 4.6875vw;
     lin_seeight: 5.625vw;
     letter-spacing: 0.3125vw;
@@ -198,7 +211,6 @@ h1, h2, h3, p, img {
   
   .aside_section_image {
     width: 100vw;
-    #background-image: url('../images/');
   }
   
   .purple_square {
@@ -209,7 +221,6 @@ h1, h2, h3, p, img {
     background-color: #5e42b0;
     width: 21.875vw;
     height: 21.875vw;
-    #line-height: 21.875vw;
   }
   
   .box-one::after {
@@ -271,7 +282,6 @@ h1, h2, h3, p, img {
   .section-info>p {
     font-size: 5vw;
     letter-spacing: 0.3125vw;
-    #line-height: 6.25vw;
 
     padding-bottom: 24.0625vw;
   }
@@ -349,8 +359,6 @@ h1, h2, h3, p, img {
     font-size: 4.375vw;
     color: #9b8ec1;
     font-weight: normal;
-    /*line-height: 1.7708vw;*/
-    /*margin-left: 36.1458vw;*/
     text-transform: uppercase;
 
   }
@@ -397,25 +405,23 @@ h1, h2, h3, p, img {
   }
   
   .slogan {
-    #font-size: 4rem;
     font-size: 8.3333vw;
-    line-height: 12.3698vw;
+    line-height: 8.3333vw;
     letter-spacing: 0.390625vw;
     
     width: 100%;
     
-    margin-top: 21.5495vw;
-    /*margin-bottom: 38.6068vw;    */
-    margin-bottom: 30.2735vw;
+    margin-top: 23.5677vw;
+    margin-bottom: 40.625vw;
   }
   
   .slogan-span:nth-child(odd) {
-    margin-left: 7.6823vw;
+    margin-left: 7.5521vw;
   }
   
   .slogan-span:nth-child(even) {
-    margin-left: 21.6146vw;
-    /*padding-top: 4.2%;*/
+    margin-left: 21.224vw;
+    padding-top: 3.2552vw;
   }
   
   .apps-container {
@@ -429,30 +435,33 @@ h1, h2, h3, p, img {
   
   .app {
     width: 47.6994%;
+    height: 10.025vw;
     border-radius: 12% / 50%;    
   }
   
   .app-link {
     font-size: 1.8229vw;
     line-height: 2.474vw;
-    padding-top: 3.06vw;
-    padding-bottom: 2.9297vw;
-    padding-left: 5.3385vw;
   }
   
   .icon {
-    width: 16.13%;
-    height: 100%;
-    margin-right: 3.776vw;    
+    width: 4.6875vw;
+    height: 5.46875vw;
+    margin-right: 3.6458vw;   
+    margin-left: auto;
   }
   
-  .article-main {
+  .store-text {
+    margin-right: auto;
+    padding-right: 2.5vw;
+  }  
+  
+ /* .article-main {
 #    padding-left: 33.854vw;
 #    padding-right: 4.297vw;
-  }
+  }*/
   
   .article-header {
-    #font-size: 3.125rem;
     font-size: 10.417vw;
     line-height: 10.417vw;
 
@@ -512,10 +521,17 @@ h1, h2, h3, p, img {
     background-color: #ffffff;
   }
   
+  .special-third-chapter {
+    background-color: #0a0e34;
+  }
+  
+  .special-third-chapter>p {
+    color: #ffffff;
+  }    
+  
   .first-chapter::before {
     display: inline-block;
     content: "01";
-    #font-size: 0.875rem;
     font-size: 2.3344vw;
     font-weight: bold;
     border-bottom: 0.26vw solid #5e42b0;
@@ -530,7 +546,6 @@ h1, h2, h3, p, img {
   .second-chapter::before {
     display: inline-block;
     content: "02";
-    #font-size: 0.875rem;
     font-size: 2.3344vw;
     font-weight: bold;
     border-bottom: 0.26vw solid #5e42b0;
@@ -545,7 +560,6 @@ h1, h2, h3, p, img {
   .third-chapter::before {
     display: inline-block;
     content: "03";
-    #font-size: 0.875rem;
     font-size: 2.3344vw;
     font-weight: bold;
     color: #000000;
@@ -556,13 +570,25 @@ h1, h2, h3, p, img {
 
     margin-top: 5.339vw;
     margin-right: 2.8125vw;
-  }  
+  }
+  
+  .special-third-chapter::before {
+    display: inline-block;
+    content: "03";
+    font-size: 2.3344vw;
+    font-weight: bold;
+    color: #8765dd;
+    border-bottom: 0.26vw solid #efefef;
+    border-radius: 10%;
+    vertical-align: top;
+    line-height: 3.5vw;
+
+    margin-top: 5.339vw;
+    margin-right: 2.8125vw;
+  }    
   
   .chapter>p {
-    #font-size: 0.9375rem;
     font-size: 2.0833vw;
-    #line-height: 5.625vw;
-    #letter-spacing: 0.1302vw;
     font-weight: normal;
 
     padding-top: 4.167vw;
@@ -577,7 +603,6 @@ h1, h2, h3, p, img {
     background-color: #5e42b0;
     width: 15.104vw;
     height: 15.104vw;
-    #line-height: 21.875vw;
   }
   
   .box-one::after {
@@ -623,8 +648,7 @@ h1, h2, h3, p, img {
   display: block;
   
   width: 100vw;
-  #height: 109.6875vw;
-}  
+}
   
   .section-info {
     padding-left: 4.1667vw;
@@ -635,7 +659,6 @@ h1, h2, h3, p, img {
     font-size: 10.4167vw;
     color: #c1c1c1;
     font-weight: bold;
-    /*letter-spacing: 0.3125vw;*/
     line-height: 10.4167vw;
     text-transform: uppercase;
 
@@ -646,12 +669,45 @@ h1, h2, h3, p, img {
   .section-info>p {
     font-size: 3.125vw;
     letter-spacing: 0.13021vw;
-    #line-height: 6.25vw;
 
     padding-bottom: 12.6302vw;
   }
   
+  .footer {
+    position: relative;
+    background-image: url('../images/game_1280.jpg');
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+
+    min-height: 125.5vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-sizing: border-box;
+    
+    padding-left: 4.1667vw;
+    padding-right: 4.1667vw;    
+  }
+  
+  .footer::after {
+    content: "";
+    background-color: #0a0e34;
+    opacity: 0.9;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+  }    
+  
   .logo-footer-container-top {
+    position: relative;
     box-sizing: border-box;
     width: 16.9271vw;
     height: 17.8385vw;
@@ -662,15 +718,17 @@ h1, h2, h3, p, img {
     z-index: 2;
     margin-top: 16.40625vw;
 
-    padding-top: 3.2552vw;
-    padding-left: 1.6927vw;
-    padding-right: 1.6927vw;
-    padding-bottom: 3.2552vw;
   }
   
   .logo-footer-top {
+    position: absolute;
+    
     width: 13.4115vw;
     height: 11.0677vw;
+    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
   }
   
   .footer-slogan {
@@ -678,9 +736,51 @@ h1, h2, h3, p, img {
 
     margin-top: 10.6771vw;
     margin-bottom: 37.24vw;
-
+    
     z-index: 2;
   }
+  
+  .download-app {
+    font-size: 10.4167vw;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.4vw;
+    line-height: 9vw;
+
+  }
+  
+  .footer-slogan>p {
+    display: block;
+    margin-top: 3.515625vw;
+
+    font-size: 4.6875vw;
+    text-align: center;
+    color: #a496ca;
+    font-weight: normal;
+    line-height: 4.6875vw;
+    text-transform: uppercase;
+
+  }
+  
+  .apps-container-bottom {
+    margin-bottom: 11.849vw;
+    margin-top: 0;
+    
+    width: 84.8958vw;;
+    
+    justify-content: space-between;
+    
+    z-index: 2;
+  }
+  
+  .logo-footer-container-bottom {
+    width: 26.6927vw;
+    height: 7.2917vw;
+    margin-bottom: 3.125vw;
+    
+    z-index: 2;
+  }    
 }
 
 @media (min-width: 961px) {
@@ -694,9 +794,6 @@ h1, h2, h3, p, img {
   
   .header {
     background-image: url('../images/football_1920.jpg');
-    
-    /*padding-left: 10vw;
-    padding-right: 10vw;*/
   }  
   
   .slogan {
@@ -747,9 +844,6 @@ h1, h2, h3, p, img {
   .app-link {
     font-size: 0.7292vw;
     width: 11.9791vw;
-    /*padding-top: 5.5%;
-    padding-bottom: 5.5%;
-    padding-left: 1.9792vw;*/
   }
   
   .icon {
@@ -764,16 +858,6 @@ h1, h2, h3, p, img {
     padding-right: 1.09375vw;
   }
   
-  /*.purple_square {
-    display: flex;
-    position: absolute;
-    top: 91.5625vw;
-    left: 6.25vw;
-    background-color: #5e42b0;
-    width: 21.875vw;
-    height: 21.875vw;
-    #line-height: 21.875vw;
-  }*/
   
   .article-header {
     font-size: 4.1667vw;
@@ -786,12 +870,10 @@ h1, h2, h3, p, img {
   
   .article-main:nth-child(1)>h2 {
     padding-left: 52.5vw;
-    /*padding-right: 4.297vw; */
   }
   
   .article-main:nth-child(2)>h2 {
     padding-left: 10vw;
-    /*padding-right: 37.89vw;*/
   }
   
   .image-box-footballer {
@@ -835,10 +917,32 @@ h1, h2, h3, p, img {
     background-color: #ffffff;
   }
   
+  .special-third-chapter {
+    background-color: #0a0e34;
+  }
+  
+  .special-third-chapter::before {
+    display: inline-block;
+    content: "03";
+    color: #9173e6;
+    font-size: 0.9375vw;
+    font-weight: bold;
+    border-bottom: 0.26vw solid #ffffff;
+    border-radius: 10%;
+    vertical-align: top;
+    line-height: 1.4vw;
+
+    margin-top: 3.125vw;
+    margin-right: 0.6771vw;
+  }   
+  
+  .special-third-chapter>p {
+    color: #ffffff;
+  }
+  
   .first-chapter::before {
     display: inline-block;
     content: "01";
-    #font-size: 0.875rem;
     font-size: 0.9375vw;
     font-weight: bold;
     border-bottom: 0.26vw solid #5e42b0;
@@ -853,7 +957,6 @@ h1, h2, h3, p, img {
   .second-chapter::before {
     display: inline-block;
     content: "02";
-    #font-size: 0.875rem;
     font-size: 0.9375vw;
     font-weight: bold;
     border-bottom: 0.26vw solid #5e42b0;
@@ -868,10 +971,9 @@ h1, h2, h3, p, img {
   .third-chapter::before {
     display: inline-block;
     content: "03";
-    #font-size: 0.875rem;
     font-size: 0.9375vw;
     font-weight: bold;
-    border-bottom: 0.26vw solid #5e42b0;
+    border-bottom: 0.26vw solid #efefef;
     border-radius: 10%;
     vertical-align: top;
     line-height: 1.4vw;
@@ -881,10 +983,7 @@ h1, h2, h3, p, img {
   }    
   
   .chapter>p {
-    #font-size: 0.9375rem;
     font-size: 1.0417vw;
-    #line-height: 5.625vw;
-    #letter-spacing: 0.1302vw;
     font-weight: normal;
 
     padding-top: 1.5104vw;
@@ -895,11 +994,14 @@ h1, h2, h3, p, img {
     display: flex;
   }
   
+  .aside_section_image-1 {
+    width: 50vw;
+  }
+  
   .aside_section_image {
     display: block;
 
     width: 50vw;
-    #height: 109.6875vw;
   }
   
   .aside_section:nth-of-type(2) .aside_section_image {
@@ -920,7 +1022,6 @@ h1, h2, h3, p, img {
     font-size: 4.1667vw;
     color: #c1c1c1;
     font-weight: bold;
-    /*letter-spacing: 0.3125vw;*/
     line-height: 4.1667vw;
     text-transform: uppercase;
 
@@ -931,9 +1032,6 @@ h1, h2, h3, p, img {
   .section-info>p {
     font-size: 1.25vw;
     letter-spacing: 0.0521vw;
-    #line-height: 6.25vw;
-
-    /*padding-bottom: 12.5vw;*/
   }
   
   .purple_square {
@@ -945,7 +1043,6 @@ h1, h2, h3, p, img {
     background-color: #5e42b0;
     width: 8.75vw;
     height: 8.1771vw;
-    #line-height: 21.875vw;
     
     z-index: 2;
   }
@@ -1112,21 +1209,16 @@ h1, h2, h3, p, img {
 
 .header {
   position: relative;
-  #background-image: url('../images/football_1920.jpg');
   background-color: #000000;
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
-  
-  #max-height: 100vh;
   
   display: flex;
   flex-direction: column;
   align-items: center;
   
   box-sizing: border-box;
-  #padding-left: 6.25%;
-  #padding-right: 6.25%
 }
 
 .header::after {
@@ -1143,10 +1235,6 @@ h1, h2, h3, p, img {
 }
 
 .logo-container {
-  #width: 47.5%;
-  #height: 12.86%;
-  #margin-top: 11.8%;
-  
   z-index: 2;
 }
 
@@ -1159,34 +1247,21 @@ h1, h2, h3, p, img {
   font-family: 'Open-Sans';
   font-weight: bold;
   color: #ffffff;
-  #font-size: 1.75rem;
   
   position: relative;
   z-index: 2;
-  
-  #margin-top: 48.5%;
-  #margin-bottom: 31%;
 }
 
 .slogan-span {
   display: block;
 }
 
-.slogan-span:nth-child(even) {
-  #margin-left: 14%;
-  #padding-top: 10%;
-}
-
-.apps-container {
+.apps-container, .apps-container-bottom {
   position: relative;
   z-index: 2;
   
-  #margin-bottom: 30%;
-  #margin-top: 0;
-  
   list-style: none;
   padding-left: 0;
-  #width: 100%;
   
   display: flex;
   flex-wrap: wrap;
@@ -1197,10 +1272,8 @@ h1, h2, h3, p, img {
   position: relative;
   justify-content: center;
   box-sizing: border-box;
-  #width: 100%;
   background-color: #5e42b0;
   border: 1px solid #5e42b0;
-  #border-radius: 5% / 50%;
 }
 
 .app-link {
@@ -1210,7 +1283,6 @@ h1, h2, h3, p, img {
   transform: translate(-50%, -50%);
   
   display: flex;
-  #box-sizing: border-box;
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
@@ -1220,20 +1292,11 @@ h1, h2, h3, p, img {
   
   font-family: 'Open-Sans';
   font-weight: normal;
-  #font-size: 0.5rem;
   text-decoration: none;
-  
-  #padding-top: 3.2%;
-  #padding-bottom: 3.2%;
-  #padding-left: 30%;
 }
 
 .icon {
   fill: #ffffff;
-  #width: 9%;
-  #height: 100%;
-  
-  #margin-right: 5%;
 }
 
 .store {
@@ -1241,7 +1304,6 @@ h1, h2, h3, p, img {
   width: 100%;
   font-family: 'Open-Sans';
   font-weight: bold;
-  #font-size: 0.5rem;
 }
 
 .article-main {
@@ -1250,30 +1312,18 @@ h1, h2, h3, p, img {
 
 .article-header {
   display: inline-block;
-  #font-size: 3.125rem;
-  #font-size: 15.625vw;
   color: #e7e7e7;
   font-weight: bold;
   text-transform: uppercase;
-  
-  #padding-left: 6.25%;
-  #margin-top: 4.6875vw;
-  #margin-bottom: 73.4375vw;
 }
 
 .image-box-footballer {
-  #background-image: url('../images/footballer_192.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   position: absolute;
-#  left: 21.9%;
-#  top: 7.5%;
   
   z-index: 3;
-  
-#  width: 59.375%;
-#  height: 87.8125vw;
 }
 
 .image-box-basketballer {
@@ -1281,80 +1331,19 @@ h1, h2, h3, p, img {
   background-position: center center;
   background-size: cover;  
   position: absolute;
-  #left: 2.5%;
-  #top: 9%;
-  
-  z-index: 2;
-  
-  #width: 94.375%;
-  
-}
 
-.chapter {
-  #padding-left: 6.25%;
-  #padding-right: 6.25%;
+  z-index: 2;
 }
 
 .chapter>h3 {
   display: inline-block;
-  #font-size: 1.4375rem;
-  #font-size: 7.1875vw;
-  #letter-spacing: 0.3125vw;
-  #line-height: 2.125rem;
-  #line-height: 7.1875vw;
   color: #c1c1c1;
   text-transform: uppercase;
   font-weight: bold;
-  
-  #margin-top: 25.9375vw;
 }
-
-#.chapter>p {
-#  #font-size: 0.9375rem;
-#  font-size: 4.6875vw;
-#  line-height: 5.625vw;
-#  letter-spacing: 0.3125vw;
-#  font-weight: normal;
-  
-#  padding-top: 9.29%;
-#  padding-bottom: 18.57%;
-}
-
-#.first-chapter {
-#  background-color: #fafafa;
-#}
-
-#.first-chapter::before {
-#  display: inline-block;
-#  content: "01";
-  #font-size: 0.875rem;
-  #font-size: 2.3344vw;
-  #font-weight: bold;
-  #border-bottom: 0.625vw solid #5e42b0;
-  #border-radius: 10%;
-  #vertical-align: top;
-  #line-height: 6vw;
-  #margin-top: 25.9375vw;
-  #margin-right: 2.8125vw;
-  }
 
 .second-chapter {
   background-color: #f5f4f9;
-}
-
-#.second-chapter::before {
-#  display: inline-block;
-#  content: "02";
-  #font-size: 0.875rem;
-#  font-size: 4.375vw;
-#  font-weight: bold;
-#  border-bottom: 0.625vw solid #5e42b0;
-#  border-radius: 10%;
-#  vertical-align: top;
-#  line-height: 6vw;
-  
-#  margin-top: 25.9375vw;
-#  margin-right: 2.8125vw;
 }
 
 .third-chapter {
@@ -1363,200 +1352,10 @@ h1, h2, h3, p, img {
   color: #ffffff;
 }
 
-#.third-chapter::before {
-#  display: inline-block;
-#  content: "03";
-  #font-size: 0.875rem;
-#  font-size: 4.375vw;
-#  font-weight: bold;
-#  color: #000000;
-#  border-bottom: 0.625vw solid #ffffff;
-#  border-radius: 10%;
-#  vertical-align: top;
-#  line-height: 6vw;
-  
-#  margin-top: 25.9375vw;
-#  margin-right: 2.8125vw;
-}
-
 .aside_section {
   position: relative;
 }
 
-#.purple_square {
-#  display: flex;
-#  position: absolute;
-#  top: 91.5625vw;
-#  left: 6.25vw;
-#  background-color: #5e42b0;
-#  width: 21.875vw;
-#  height: 21.875vw;
-#  #line-height: 21.875vw;
-#}
-
-#.box-one::after {
-#  position: absolute;
-#  content: "01";
-#  left: 38.571%;
-#  top: 32%;
-#  border-box: box-sizing;
-#  color: #f5f6f7;
-#  font-size: 4.375vw;
-#  font-weight: bold;
-#  text-align: center;
-#  border-bottom: 1.25vw solid #ffffff;
-#}
-
-/*.box-two::after {
-  position: absolute;
-  content: "02";
-  left: 38.571%;
-  top: 32%;
-  border-box: box-sizing;
-  color: #f5f6f7;
-  font-size: 4.375vw;
-  font-weight: bold;
-  text-align: center;
-  border-bottom: 1.25vw solid #ffffff;
-}*/
-
-/*.box-three::after {
-  position: absolute;
-  content: "03";
-  left: 38.571%;
-  top: 32%;
-  box-sizing: border-box;
-  color: #f5f6f7;
-  font-size: 4.375vw;
-  font-weight: bold;
-  text-align: center;
-  border-bottom: 1.25vw solid #ffffff;
-}*/
-
-/*.aside_section_image {
-  display: block;
-  
-  width: 100vw;
-  #height: 109.6875vw;
-}*/
-
-/*.section-info {
-  padding-left: 6.25vw;
-  padding-right: 6.25vw;
-}
-
-.section-header {
-  font-size: 8.75vw;
-  color: #e7e7e7;
-  font-weight: bold;
-  letter-spacing: 0.3125vw;
-  line-height: 10.625vw;
-  text-transform: uppercase;
-  
-  padding-top: 10.3125vw;
-  padding-bottom: 7.1875vw;
-}
-
-.section-info>p {
-  font-size: 5vw;
-  letter-spacing: 0.3125vw;
-  #line-height: 6.25vw;
-  
-  padding-bottom: 24.0625vw;
-}*/
-
-/*
-.footer {
-  position: relative;
-  background-image: url('../images/game_767.jpg');
-  background-color: #000000;
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: cover;
-  
-  max-height: 100vh;
-  
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-  box-sizing: border-box;
-  padding-left: 6.25vw;
-  padding-right: 6.25vw;
-}
-
-.footer::after {
-  content: "";
-  background-color: #0a0e34;
-  opacity: 0.9;
-  
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  
-}
-*/
-
-/*.logo-footer-container-top {
-  box-sizing: border-box;
-  width: 22.5vw;
-  height: 23.125vw;
-  background-color: #5e42b0;
-  border: 1px solid #5e42b0;
-  border-radius: 20%;
-  
-  z-index: 2;
-  margin-top: 30.9375vw;
-  
-  padding-top: 3.125vw;
-  padding-left: 1.875vw;
-  padding-right: 1.875vw;
-}*/
-
 .logo-footer-top {
   fill: #ffffff;
 }
-
-/*.footer-slogan {
-  width: 100%;
-  
-  margin-top: 15.3125vw;
-  margin-bottom: 23.4375vw;
-  
-  z-index: 2;
-}*/
-
-/*.download-app {
-  font-size: 10vw;
-  font-weight: bold;
-  color: #ffffff;
-  text-transform: uppercase;
-  letter-spacing: 0.4vw;
-  line-height: 10vw;
-  
-  text-align: center;
-}*/
-
-/*.footer-slogan>p {
-  margin-top: 4.0625vw;
-  
-  font-size: 4.375vw;
-  color: #9b8ec1;
-  font-weight: normal;
-  letter-spacing: 0.3125vw;
-  line-height: 4.375vw;
-  text-align: center;
-  text-transform: uppercase;
-  
-}*/
-/*
-  .logo-footer-container-bottom {
-    width: 41.5625vw;
-    height: 11.25vw;
-    margin-bottom: 3.125vw;
-    
-    z-index: 2;
-  }
-*/
